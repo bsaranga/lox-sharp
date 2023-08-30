@@ -4,6 +4,7 @@ namespace lox_sharp
 {
     public class Program
     {
+        public static bool HadError;
         public static void Main(string[] args)
         {
             if (args.Length > 1)
@@ -24,10 +25,12 @@ namespace lox_sharp
             try
             {
                 byte[] bytes = File.ReadAllBytes(path);
+
+                if (HadError) Environment.Exit(65);
             }
             catch (IOException ex)
             {
-                PrintError(ex.Message);
+                Error(0, ex.Message);
                 throw;
             }
         }
@@ -47,11 +50,12 @@ namespace lox_sharp
                         break;
 
                     Run(line);
+                    HadError = false;
                 }
             }
             catch (IOException ex)
             {
-                PrintError(ex.Message);
+                Error(0, ex.Message);
                 throw;
             }
         }
