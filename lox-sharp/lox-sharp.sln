@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lox-sharp", "lox-sharp.csproj", "{8B9B5311-A851-4F10-BDB6-CD6833C739FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lox_sharp_tests", "..\lox_sharp_tests\lox_sharp_tests.csproj", "{2ACAE2CD-3ACC-4F18-8679-9397EC0DC9D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B9B5311-A851-4F10-BDB6-CD6833C739FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9B5311-A851-4F10-BDB6-CD6833C739FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9B5311-A851-4F10-BDB6-CD6833C739FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9B5311-A851-4F10-BDB6-CD6833C739FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACAE2CD-3ACC-4F18-8679-9397EC0DC9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACAE2CD-3ACC-4F18-8679-9397EC0DC9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACAE2CD-3ACC-4F18-8679-9397EC0DC9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACAE2CD-3ACC-4F18-8679-9397EC0DC9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F37E34-5F68-498E-B522-61180FB654F7}
+	EndGlobalSection
+EndGlobal
